@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PBWebApplication1", "PBWebApplication1\PBWebApplication1.csproj", "{1CAAA7AD-C2F6-4A08-857A-AD2BAF5405D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAutomationProject1", "TestAutomationProject1\TestAutomationProject1.csproj", "{57B462AF-4171-4910-A089-E5C4320F56FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAutomationProject1", "TestAutomationProject1\TestAutomationProject1.csproj", "{57B462AF-4171-4910-A089-E5C4320F56FC}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AzureDBProject", "AzureDBProject\AzureDBProject.sqlproj", "{01B7A405-8FE6-4D5D-AD68-80C266FB055B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,12 @@ Global
 		{57B462AF-4171-4910-A089-E5C4320F56FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57B462AF-4171-4910-A089-E5C4320F56FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57B462AF-4171-4910-A089-E5C4320F56FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01B7A405-8FE6-4D5D-AD68-80C266FB055B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B7A405-8FE6-4D5D-AD68-80C266FB055B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01B7A405-8FE6-4D5D-AD68-80C266FB055B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{01B7A405-8FE6-4D5D-AD68-80C266FB055B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01B7A405-8FE6-4D5D-AD68-80C266FB055B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01B7A405-8FE6-4D5D-AD68-80C266FB055B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
